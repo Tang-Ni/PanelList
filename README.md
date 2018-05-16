@@ -1,4 +1,4 @@
 # panelList
 面板折叠
-> ssh\n
+> ssh\<br>
 > 2
