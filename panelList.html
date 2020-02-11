@@ -5,6 +5,7 @@
 		<meta charset="UTF-8">
 		<title></title>
 		<script src="jquery-2.2.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="index.js" type="text/javascript" charset="utf-8"></script>
 		<link rel="stylesheet" href="style.css">
 	</head>
 
@@ -19,16 +20,7 @@
 			<dt>Section 4</dt>
 			<dd>Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc.</dd>
 		</dl>
-		<script>
-			$(function() {
-				$("dd").hide();
-				$("dt").click(function() {
-					$(this).next().toggle();
-					$(this).siblings("dt").next().hide();
-
-				})
-			})
-		</script>
+	 
 	</body>
 
 </html>
